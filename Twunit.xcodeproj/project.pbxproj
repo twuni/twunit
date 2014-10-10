@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0309E3AE19E76F0900D0E833 /* twunit_colors.c in Sources */ = {isa = PBXBuildFile; fileRef = 0309E3A919E76F0900D0E833 /* twunit_colors.c */; };
+		0309E3AF19E76F0900D0E833 /* twunit_colors.h in Headers */ = {isa = PBXBuildFile; fileRef = 0309E3AA19E76F0900D0E833 /* twunit_colors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0309E3B019E76F0900D0E833 /* twunit_logger.c in Sources */ = {isa = PBXBuildFile; fileRef = 0309E3AB19E76F0900D0E833 /* twunit_logger.c */; };
+		0309E3B119E76F0900D0E833 /* twunit_logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0309E3AC19E76F0900D0E833 /* twunit_logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0309E3B219E76F0900D0E833 /* twunit_status.h in Headers */ = {isa = PBXBuildFile; fileRef = 0309E3AD19E76F0900D0E833 /* twunit_status.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		030AD45719E774C000964901 /* twunit_test_suite.c in Sources */ = {isa = PBXBuildFile; fileRef = 030AD45619E774C000964901 /* twunit_test_suite.c */; };
+		030AD46019E7752B00964901 /* twunit_test_suite.c in Sources */ = {isa = PBXBuildFile; fileRef = 030AD45619E774C000964901 /* twunit_test_suite.c */; };
+		030AD46219E7754600964901 /* twunit_logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0309E3AC19E76F0900D0E833 /* twunit_logger.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		030AD46319E7755600964901 /* libtwunit-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0309E3A219E76ED000D0E833 /* libtwunit-osx.a */; };
+		035F2CDE19E772EB00317CF7 /* twunit_logger.c in Sources */ = {isa = PBXBuildFile; fileRef = 0309E3AB19E76F0900D0E833 /* twunit_logger.c */; };
+		035F2CDF19E772EB00317CF7 /* twunit_colors.c in Sources */ = {isa = PBXBuildFile; fileRef = 0309E3A919E76F0900D0E833 /* twunit_colors.c */; };
+		035F2CE119E772EB00317CF7 /* twunit_status.h in Headers */ = {isa = PBXBuildFile; fileRef = 0309E3AD19E76F0900D0E833 /* twunit_status.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		035F2CE219E772EB00317CF7 /* twunit_colors.h in Headers */ = {isa = PBXBuildFile; fileRef = 0309E3AA19E76F0900D0E833 /* twunit_colors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		035F2CE319E772EB00317CF7 /* twunit_logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0309E3AC19E76F0900D0E833 /* twunit_logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		030AD45E19E7751E00964901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0309E39A19E76ED000D0E833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0309E3A119E76ED000D0E833;
+			remoteInfo = "twunit-osx";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0309E3A219E76ED000D0E833 /* libtwunit-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libtwunit-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0309E3A919E76F0900D0E833 /* twunit_colors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = twunit_colors.c; path = src/main/twunit_colors.c; sourceTree = "<group>"; };
+		0309E3AA19E76F0900D0E833 /* twunit_colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = twunit_colors.h; path = src/main/twunit_colors.h; sourceTree = "<group>"; };
+		0309E3AB19E76F0900D0E833 /* twunit_logger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = twunit_logger.c; path = src/main/twunit_logger.c; sourceTree = "<group>"; };
+		0309E3AC19E76F0900D0E833 /* twunit_logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = twunit_logger.h; path = src/main/twunit_logger.h; sourceTree = "<group>"; };
+		0309E3AD19E76F0900D0E833 /* twunit_status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = twunit_status.h; path = src/main/twunit_status.h; sourceTree = "<group>"; };
+		030AD44F19E7749D00964901 /* twunit-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "twunit-test"; sourceTree = BUILT_PRODUCTS_DIR; };
+		030AD45619E774C000964901 /* twunit_test_suite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = twunit_test_suite.c; path = src/test/twunit_test_suite.c; sourceTree = "<group>"; };
+		035F2CE719E772EB00317CF7 /* libtwunit-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libtwunit-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030AD44C19E7749D00964901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030AD46319E7755600964901 /* libtwunit-osx.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0309E39919E76ED000D0E833 = {
+			isa = PBXGroup;
+			children = (
+				030AD45619E774C000964901 /* twunit_test_suite.c */,
+				0309E3A919E76F0900D0E833 /* twunit_colors.c */,
+				0309E3AA19E76F0900D0E833 /* twunit_colors.h */,
+				0309E3AB19E76F0900D0E833 /* twunit_logger.c */,
+				0309E3AC19E76F0900D0E833 /* twunit_logger.h */,
+				0309E3AD19E76F0900D0E833 /* twunit_status.h */,
+				0309E3A319E76ED000D0E833 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0309E3A319E76ED000D0E833 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0309E3A219E76ED000D0E833 /* libtwunit-osx.a */,
+				035F2CE719E772EB00317CF7 /* libtwunit-ios.a */,
+				030AD44F19E7749D00964901 /* twunit-test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0309E3A019E76ED000D0E833 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0309E3B219E76F0900D0E833 /* twunit_status.h in Headers */,
+				0309E3AF19E76F0900D0E833 /* twunit_colors.h in Headers */,
+				0309E3B119E76F0900D0E833 /* twunit_logger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030AD46119E7753E00964901 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030AD46219E7754600964901 /* twunit_logger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035F2CE019E772EB00317CF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035F2CE119E772EB00317CF7 /* twunit_status.h in Headers */,
+				035F2CE219E772EB00317CF7 /* twunit_colors.h in Headers */,
+				035F2CE319E772EB00317CF7 /* twunit_logger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0309E3A119E76ED000D0E833 /* libtwunit-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0309E3A619E76ED000D0E833 /* Build configuration list for PBXNativeTarget "libtwunit-osx" */;
+			buildPhases = (
+				0309E39E19E76ED000D0E833 /* Sources */,
+				0309E3A019E76ED000D0E833 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libtwunit-osx";
+			productName = Twunit;
+			productReference = 0309E3A219E76ED000D0E833 /* libtwunit-osx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		030AD44E19E7749D00964901 /* libtwunit-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030AD45519E7749D00964901 /* Build configuration list for PBXNativeTarget "libtwunit-test" */;
+			buildPhases = (
+				030AD46119E7753E00964901 /* Headers */,
+				030AD44B19E7749D00964901 /* Sources */,
+				030AD44C19E7749D00964901 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030AD45F19E7751E00964901 /* PBXTargetDependency */,
+			);
+			name = "libtwunit-test";
+			productName = "twunit-test";
+			productReference = 030AD44F19E7749D00964901 /* twunit-test */;
+			productType = "com.apple.product-type.tool";
+		};
+		035F2CDC19E772EB00317CF7 /* libtwunit-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035F2CE419E772EB00317CF7 /* Build configuration list for PBXNativeTarget "libtwunit-ios" */;
+			buildPhases = (
+				035F2CDD19E772EB00317CF7 /* Sources */,
+				035F2CE019E772EB00317CF7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libtwunit-ios";
+			productName = Twunit;
+			productReference = 035F2CE719E772EB00317CF7 /* libtwunit-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0309E39A19E76ED000D0E833 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Twuni;
+				TargetAttributes = {
+					0309E3A119E76ED000D0E833 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					030AD44E19E7749D00964901 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 0309E39D19E76ED000D0E833 /* Build configuration list for PBXProject "Twunit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0309E39919E76ED000D0E833;
+			productRefGroup = 0309E3A319E76ED000D0E833 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0309E3A119E76ED000D0E833 /* libtwunit-osx */,
+				035F2CDC19E772EB00317CF7 /* libtwunit-ios */,
+				030AD44E19E7749D00964901 /* libtwunit-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0309E39E19E76ED000D0E833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0309E3B019E76F0900D0E833 /* twunit_logger.c in Sources */,
+				030AD45719E774C000964901 /* twunit_test_suite.c in Sources */,
+				0309E3AE19E76F0900D0E833 /* twunit_colors.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030AD44B19E7749D00964901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030AD46019E7752B00964901 /* twunit_test_suite.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035F2CDD19E772EB00317CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035F2CDE19E772EB00317CF7 /* twunit_logger.c in Sources */,
+				035F2CDF19E772EB00317CF7 /* twunit_colors.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030AD45F19E7751E00964901 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0309E3A119E76ED000D0E833 /* libtwunit-osx */;
+			targetProxy = 030AD45E19E7751E00964901 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0309E3A419E76ED000D0E833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					DARWIN,
+					XCODE,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0309E3A519E76ED000D0E833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DARWIN,
+					XCODE,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0309E3A719E76ED000D0E833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/.xcode/$(PROJECT_NAME).profdata";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/osx/$(CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/osx/$(CONFIGURATION)";
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				INSTALL_PATH = "$(BUILD_DIR)/dist/osx";
+				PRIVATE_HEADERS_FOLDER_PATH = private/include;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+			};
+			name = Debug;
+		};
+		0309E3A819E76ED000D0E833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/.xcode/$(PROJECT_NAME).profdata";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/osx/$(CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/osx/$(CONFIGURATION)";
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				INSTALL_PATH = "$(BUILD_DIR)/dist/osx";
+				PRIVATE_HEADERS_FOLDER_PATH = private/include;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+			};
+			name = Release;
+		};
+		030AD45319E7749D00964901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/.xcode/$(PROJECT_NAME).profdata";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/osx/test/$(CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/osx/test/$(CONFIGURATION)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INSTALL_PATH = "$(BUILD_DIR)/dist";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = "-L$(BUILD_DIR)/osx/$(CONFIGURATION)";
+				PRIVATE_HEADERS_FOLDER_PATH = private/include;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+			};
+			name = Debug;
+		};
+		030AD45419E7749D00964901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/.xcode/$(PROJECT_NAME).profdata";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/osx/test/$(CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/osx/test/$(CONFIGURATION)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				INSTALL_PATH = "$(BUILD_DIR)/dist";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = "-L$(BUILD_DIR)/osx/$(CONFIGURATION)";
+				PRIVATE_HEADERS_FOLDER_PATH = private/include;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+			};
+			name = Release;
+		};
+		035F2CE519E772EB00317CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/.xcode/$(PROJECT_NAME).profdata";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/ios/$(CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/ios/$(CONFIGURATION)";
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				INSTALL_PATH = "$(BUILD_DIR)/dist/ios";
+				PRIVATE_HEADERS_FOLDER_PATH = private/include;
+				PRODUCT_NAME = "libtwunit-ios";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		035F2CE619E772EB00317CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/.xcode/$(PROJECT_NAME).profdata";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/ios/$(CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/ios/$(CONFIGURATION)";
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				INSTALL_PATH = "$(BUILD_DIR)/dist/ios";
+				PRIVATE_HEADERS_FOLDER_PATH = private/include;
+				PRODUCT_NAME = "libtwunit-ios";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0309E39D19E76ED000D0E833 /* Build configuration list for PBXProject "Twunit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0309E3A419E76ED000D0E833 /* Debug */,
+				0309E3A519E76ED000D0E833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0309E3A619E76ED000D0E833 /* Build configuration list for PBXNativeTarget "libtwunit-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0309E3A719E76ED000D0E833 /* Debug */,
+				0309E3A819E76ED000D0E833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030AD45519E7749D00964901 /* Build configuration list for PBXNativeTarget "libtwunit-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030AD45319E7749D00964901 /* Debug */,
+				030AD45419E7749D00964901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		035F2CE419E772EB00317CF7 /* Build configuration list for PBXNativeTarget "libtwunit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035F2CE519E772EB00317CF7 /* Debug */,
+				035F2CE619E772EB00317CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0309E39A19E76ED000D0E833 /* Project object */;
+}
